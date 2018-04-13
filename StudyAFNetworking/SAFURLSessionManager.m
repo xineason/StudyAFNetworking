@@ -145,6 +145,9 @@ static NSUInteger const AFMaximumNumberOfAttemptsToRecreateBackgroundSessionUplo
     //任务代理对象的字典
     self.mutableTaskDelegatesKeyedByTaskIdentifier = [[NSMutableDictionary alloc] init];
     
+    self.lock = [[NSLock alloc] init];
+    self.lock.name = AFURLSessionManagerLockName;
+    
     
     return self;
 }

@@ -14,12 +14,12 @@
 		6533AD192080A037001FFAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6533AD172080A037001FFAD1 /* LaunchScreen.storyboard */; };
 		6533AD1C2080A037001FFAD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533AD1B2080A037001FFAD1 /* main.m */; };
 		6533AD262080A037001FFAD1 /* StudyAFNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533AD252080A037001FFAD1 /* StudyAFNetworkingTests.m */; };
-		6533AD452080ACE4001FFAD1 /* SAFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533AD412080ACE4001FFAD1 /* SAFURLSessionManager.m */; };
-		6533AD462080ACE4001FFAD1 /* SAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533AD442080ACE4001FFAD1 /* SAFHTTPSessionManager.m */; };
-		6533AD4F2080AD9D001FFAD1 /* SAFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533AD4E2080AD9D001FFAD1 /* SAFURLRequestSerialization.m */; };
-		6533AD522080ADB9001FFAD1 /* SAFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533AD512080ADB9001FFAD1 /* SAFURLResponseSerialization.m */; };
-		6533AD552080ADDF001FFAD1 /* SAFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533AD542080ADDF001FFAD1 /* SAFSecurityPolicy.m */; };
-		6533AD582080AE0F001FFAD1 /* SAFNetworkingReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533AD572080AE0F001FFAD1 /* SAFNetworkingReachabilityManager.m */; };
+		9B341A652080E8780074DC54 /* SAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B341A632080E8770074DC54 /* SAFHTTPSessionManager.m */; };
+		9B341A662080E8780074DC54 /* SAFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B341A642080E8770074DC54 /* SAFURLSessionManager.m */; };
+		9B341A6C2080E8940074DC54 /* SAFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B341A692080E8940074DC54 /* SAFURLRequestSerialization.m */; };
+		9B341A6D2080E8940074DC54 /* SAFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B341A6A2080E8940074DC54 /* SAFURLResponseSerialization.m */; };
+		9B341A712080E8AF0074DC54 /* SAFNetworkingReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B341A702080E8AF0074DC54 /* SAFNetworkingReachabilityManager.m */; };
+		9B341A752080E8C80074DC54 /* SAFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B341A742080E8C80074DC54 /* SAFSecurityPolicy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,18 +47,18 @@
 		6533AD252080A037001FFAD1 /* StudyAFNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyAFNetworkingTests.m; sourceTree = "<group>"; };
 		6533AD272080A037001FFAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6533AD372080A30B001FFAD1 /* SAFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAFNetworking.h; sourceTree = "<group>"; };
-		6533AD412080ACE4001FFAD1 /* SAFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SAFURLSessionManager.m; path = StudyAFNetworking/SAFURLSessionManager.m; sourceTree = SOURCE_ROOT; };
-		6533AD422080ACE4001FFAD1 /* SAFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SAFURLSessionManager.h; path = StudyAFNetworking/SAFURLSessionManager.h; sourceTree = SOURCE_ROOT; };
-		6533AD432080ACE4001FFAD1 /* SAFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SAFHTTPSessionManager.h; path = StudyAFNetworking/SAFHTTPSessionManager.h; sourceTree = SOURCE_ROOT; };
-		6533AD442080ACE4001FFAD1 /* SAFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SAFHTTPSessionManager.m; path = StudyAFNetworking/SAFHTTPSessionManager.m; sourceTree = SOURCE_ROOT; };
-		6533AD4D2080AD9D001FFAD1 /* SAFURLRequestSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SAFURLRequestSerialization.h; path = StudyAFNetworking/SAFURLRequestSerialization.h; sourceTree = SOURCE_ROOT; };
-		6533AD4E2080AD9D001FFAD1 /* SAFURLRequestSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SAFURLRequestSerialization.m; path = StudyAFNetworking/SAFURLRequestSerialization.m; sourceTree = SOURCE_ROOT; };
-		6533AD502080ADB9001FFAD1 /* SAFURLResponseSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SAFURLResponseSerialization.h; path = StudyAFNetworking/SAFURLResponseSerialization.h; sourceTree = SOURCE_ROOT; };
-		6533AD512080ADB9001FFAD1 /* SAFURLResponseSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SAFURLResponseSerialization.m; path = StudyAFNetworking/SAFURLResponseSerialization.m; sourceTree = SOURCE_ROOT; };
-		6533AD532080ADDF001FFAD1 /* SAFSecurityPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SAFSecurityPolicy.h; path = StudyAFNetworking/SAFSecurityPolicy.h; sourceTree = SOURCE_ROOT; };
-		6533AD542080ADDF001FFAD1 /* SAFSecurityPolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SAFSecurityPolicy.m; path = StudyAFNetworking/SAFSecurityPolicy.m; sourceTree = SOURCE_ROOT; };
-		6533AD562080AE0F001FFAD1 /* SAFNetworkingReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SAFNetworkingReachabilityManager.h; path = StudyAFNetworking/SAFNetworkingReachabilityManager.h; sourceTree = SOURCE_ROOT; };
-		6533AD572080AE0F001FFAD1 /* SAFNetworkingReachabilityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SAFNetworkingReachabilityManager.m; path = StudyAFNetworking/SAFNetworkingReachabilityManager.m; sourceTree = SOURCE_ROOT; };
+		9B341A612080E8770074DC54 /* SAFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAFHTTPSessionManager.h; sourceTree = "<group>"; };
+		9B341A622080E8770074DC54 /* SAFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAFURLSessionManager.h; sourceTree = "<group>"; };
+		9B341A632080E8770074DC54 /* SAFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAFHTTPSessionManager.m; sourceTree = "<group>"; };
+		9B341A642080E8770074DC54 /* SAFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAFURLSessionManager.m; sourceTree = "<group>"; };
+		9B341A682080E8940074DC54 /* SAFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAFURLRequestSerialization.h; sourceTree = "<group>"; };
+		9B341A692080E8940074DC54 /* SAFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAFURLRequestSerialization.m; sourceTree = "<group>"; };
+		9B341A6A2080E8940074DC54 /* SAFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAFURLResponseSerialization.m; sourceTree = "<group>"; };
+		9B341A6B2080E8940074DC54 /* SAFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAFURLResponseSerialization.h; sourceTree = "<group>"; };
+		9B341A6F2080E8AF0074DC54 /* SAFNetworkingReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAFNetworkingReachabilityManager.h; sourceTree = "<group>"; };
+		9B341A702080E8AF0074DC54 /* SAFNetworkingReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAFNetworkingReachabilityManager.m; sourceTree = "<group>"; };
+		9B341A732080E8C80074DC54 /* SAFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAFSecurityPolicy.h; sourceTree = "<group>"; };
+		9B341A742080E8C80074DC54 /* SAFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAFSecurityPolicy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,13 +100,13 @@
 		6533AD0B2080A037001FFAD1 /* StudyAFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				9B341A722080E8C10074DC54 /* Security */,
 				6533AD372080A30B001FFAD1 /* SAFNetworking.h */,
-				6533AD312080A136001FFAD1 /* NSURLSession */,
-				6533AD342080A15C001FFAD1 /* Serialization */,
-				6533AD322080A143001FFAD1 /* Reachability */,
-				6533AD332080A155001FFAD1 /* Security */,
-				6533AD362080A262001FFAD1 /* UIKit */,
-				6533AD352080A23B001FFAD1 /* Support Files */,
+				9B341A602080E8550074DC54 /* NSURLSession */,
+				9B341A672080E8890074DC54 /* Serialization */,
+				9B341A6E2080E8A50074DC54 /* Reachability */,
+				9B341A762080E8E50074DC54 /* UIKit */,
+				9B341A772080E8F10074DC54 /* Support Files */,
 				6533AD302080A11A001FFAD1 /* Others */,
 			);
 			path = StudyAFNetworking;
@@ -137,60 +137,59 @@
 			path = Others;
 			sourceTree = "<group>";
 		};
-		6533AD312080A136001FFAD1 /* NSURLSession */ = {
+		9B341A602080E8550074DC54 /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
-				6533AD432080ACE4001FFAD1 /* SAFHTTPSessionManager.h */,
-				6533AD442080ACE4001FFAD1 /* SAFHTTPSessionManager.m */,
-				6533AD422080ACE4001FFAD1 /* SAFURLSessionManager.h */,
-				6533AD412080ACE4001FFAD1 /* SAFURLSessionManager.m */,
+				9B341A612080E8770074DC54 /* SAFHTTPSessionManager.h */,
+				9B341A632080E8770074DC54 /* SAFHTTPSessionManager.m */,
+				9B341A622080E8770074DC54 /* SAFURLSessionManager.h */,
+				9B341A642080E8770074DC54 /* SAFURLSessionManager.m */,
 			);
-			path = NSURLSession;
+			name = NSURLSession;
 			sourceTree = "<group>";
 		};
-		6533AD322080A143001FFAD1 /* Reachability */ = {
+		9B341A672080E8890074DC54 /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
-				6533AD562080AE0F001FFAD1 /* SAFNetworkingReachabilityManager.h */,
-				6533AD572080AE0F001FFAD1 /* SAFNetworkingReachabilityManager.m */,
+				9B341A682080E8940074DC54 /* SAFURLRequestSerialization.h */,
+				9B341A692080E8940074DC54 /* SAFURLRequestSerialization.m */,
+				9B341A6B2080E8940074DC54 /* SAFURLResponseSerialization.h */,
+				9B341A6A2080E8940074DC54 /* SAFURLResponseSerialization.m */,
 			);
-			path = Reachability;
+			name = Serialization;
 			sourceTree = "<group>";
 		};
-		6533AD332080A155001FFAD1 /* Security */ = {
+		9B341A6E2080E8A50074DC54 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				6533AD532080ADDF001FFAD1 /* SAFSecurityPolicy.h */,
-				6533AD542080ADDF001FFAD1 /* SAFSecurityPolicy.m */,
+				9B341A6F2080E8AF0074DC54 /* SAFNetworkingReachabilityManager.h */,
+				9B341A702080E8AF0074DC54 /* SAFNetworkingReachabilityManager.m */,
 			);
-			path = Security;
+			name = Reachability;
 			sourceTree = "<group>";
 		};
-		6533AD342080A15C001FFAD1 /* Serialization */ = {
+		9B341A722080E8C10074DC54 /* Security */ = {
 			isa = PBXGroup;
 			children = (
-				6533AD4D2080AD9D001FFAD1 /* SAFURLRequestSerialization.h */,
-				6533AD4E2080AD9D001FFAD1 /* SAFURLRequestSerialization.m */,
-				6533AD502080ADB9001FFAD1 /* SAFURLResponseSerialization.h */,
-				6533AD512080ADB9001FFAD1 /* SAFURLResponseSerialization.m */,
+				9B341A732080E8C80074DC54 /* SAFSecurityPolicy.h */,
+				9B341A742080E8C80074DC54 /* SAFSecurityPolicy.m */,
 			);
-			path = Serialization;
+			name = Security;
 			sourceTree = "<group>";
 		};
-		6533AD352080A23B001FFAD1 /* Support Files */ = {
+		9B341A762080E8E50074DC54 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		9B341A772080E8F10074DC54 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = "Support Files";
 			sourceTree = "<group>";
-		};
-		6533AD362080A262001FFAD1 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = UIKit;
-			path = StudyAFNetworking/UIKit;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -294,14 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6533AD552080ADDF001FFAD1 /* SAFSecurityPolicy.m in Sources */,
 				6533AD112080A037001FFAD1 /* ViewController.m in Sources */,
-				6533AD4F2080AD9D001FFAD1 /* SAFURLRequestSerialization.m in Sources */,
-				6533AD462080ACE4001FFAD1 /* SAFHTTPSessionManager.m in Sources */,
-				6533AD522080ADB9001FFAD1 /* SAFURLResponseSerialization.m in Sources */,
-				6533AD452080ACE4001FFAD1 /* SAFURLSessionManager.m in Sources */,
-				6533AD582080AE0F001FFAD1 /* SAFNetworkingReachabilityManager.m in Sources */,
+				9B341A662080E8780074DC54 /* SAFURLSessionManager.m in Sources */,
+				9B341A6D2080E8940074DC54 /* SAFURLResponseSerialization.m in Sources */,
+				9B341A6C2080E8940074DC54 /* SAFURLRequestSerialization.m in Sources */,
+				9B341A652080E8780074DC54 /* SAFHTTPSessionManager.m in Sources */,
+				9B341A712080E8AF0074DC54 /* SAFNetworkingReachabilityManager.m in Sources */,
 				6533AD1C2080A037001FFAD1 /* main.m in Sources */,
+				9B341A752080E8C80074DC54 /* SAFSecurityPolicy.m in Sources */,
 				6533AD0E2080A037001FFAD1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
